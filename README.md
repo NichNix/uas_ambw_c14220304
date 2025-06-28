@@ -1,16 +1,39 @@
-# mood_journal
+# Mood Journal Flutter App
 
-A new Flutter project.
+Aplikasi Flutter sederhana untuk mencatat suasana hati harian.
 
-## Getting Started
+## Fitur Utama
 
-This project is a starting point for a Flutter application.
+- Autentikasi dengan Supabase (Sign Up, Sign In, Sign Out)
+- Database cloud menggunakan Supabase
+- Simpan sesi login menggunakan SharedPreferences
+- Get Started Screen hanya tampil saat pertama aplikasi dibuka
+- UI sederhana namun responsif
+- Validasi email dan password saat login
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dummy User (Testing)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+akun dummy untuk login:
+
+- **Email:** `cobauser@contoh.com`
+- **Password:** `password123`
+
+> Atau buat akun baru dari halaman sign up.
+
+
+## Teknologi yang digunakan
+
+- Flutter
+- Supabase
+- SharedPreferences
+- Dart
+
+
+## Cara Install & Jalankan
+
+git clone https://github.com/Nichnix/uas_ambw_c14220304.git
+cd uas_ambw_c14220304
+flutter pub get
+flutter run
+
