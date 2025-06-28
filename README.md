@@ -35,5 +35,12 @@ akun dummy untuk login:
 - git clone https://github.com/Nichnix/uas_ambw_c14220304.git
 - cd uas_ambw_c14220304
 - flutter pub get
+- Buat project baru di Supabase -> SQL Editor -> jalankan SQL berikut:
+create table if not exists mood_entries (
+  id uuid primary key default uuid_generate_v4(),
+  user_id uuid references auth.users(id) on delete cascade,
+  emoji text not null,
+  note text,
+  created_at timestamp with time zone default now()
+);
 - flutter run
-
