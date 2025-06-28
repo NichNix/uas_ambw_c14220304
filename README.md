@@ -32,8 +32,8 @@ akun dummy untuk login:
 
 ## Cara Install & Jalankan
 
-git clone https://github.com/Nichnix/uas_ambw_c14220304.git
-cd uas_ambw_c14220304
-flutter pub get
-flutter run
+- git clone https://github.com/Nichnix/uas_ambw_c14220304.git
+- cd uas_ambw_c14220304
+- flutter pub get
+- flutter run
 
